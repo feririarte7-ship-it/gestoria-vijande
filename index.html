@@ -180,19 +180,11 @@
       position: relative;
       min-height: min(90vh, 640px);
       display: flex; align-items: center;
-      background: var(--negro);
+      background: #2a2a2a;
       overflow: hidden;
     }
-    .hero-bg {
-      position: absolute; inset: 0;
-      background-image: url('https://le-de.cdn-website.com/7fea5c493b4643ef97a55c559db2b898/dms3rep/multi/opt/142804641_m_normal_none-d44a442f-1920w.jpg');
-      background-size: cover; background-position: center 20%;
-      opacity: .28;
-    }
-    .hero-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(105deg, rgba(0,0,0,.45) 40%, rgba(153,1,52,.15) 100%);
-    }
+    .hero-bg { display: none; }
+    .hero-overlay { display: none; }
     .hero-content {
       position: relative; z-index: 2;
       padding: 64px 5vw;
