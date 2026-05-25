@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO -->
+  <title>Gestoría Vijande | Trámites de Vehículos y Embarcaciones en Ibiza</title>
+  <meta name="description" content="Gestoría especializada en Ibiza: matriculaciones, transferencias, renovación de carnet y trámites náuticos. Rápido, profesional y cercano.">
+  <meta name="keywords" content="gestoría Ibiza, matriculaciones Eivissa, transferencias vehículos Ibiza, renovar carnet conducir Ibiza, trámites náuticos Ibiza, Gestión Vijande">
+  <meta name="author" content="Gestión y Asesoramiento Vijande">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://feririarte7-ship-it.github.io/gestoria-vijande/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gestoría Vijande — Trámites en Ibiza">
+  <meta property="og:description" content="Matriculaciones, transferencias, carnet de conducir y trámites náuticos en Ibiza. Profesionales de confianza.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://feririarte7-ship-it.github.io/gestoria-vijande/">
+  <meta property="og:locale" content="es_ES">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Gestión y Asesoramiento Vijande",
+    "description": "Gestoría especializada en trámites de vehículos, embarcaciones y permisos en Ibiza.",
+    "telephone": "+34971318078",
+    "email": "gestoriavijande@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Ignacio Wallis, 52 bajo",
+      "addressLocality": "Eivissa",
+      "addressRegion": "Illes Balears",
+      "postalCode": "07800",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.9068,
+      "longitude": 1.4205
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/gestoriavijande",
+      "https://www.instagram.com/gestoriavijande"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #e8a020;
+      --light: #f5f7fa;
+      --text: #2d2d2d;
+      --muted: #6b7280;
+      --white: #ffffff;
+      --shadow: 0 4px 24px rgba(0,0,0,0.10);
+      --radius: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--text); background: var(--white); }
+
+    /* NAV */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--primary);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5vw; height: 64px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+    }
+    .nav-logo {
+      font-size: 1.15rem; font-weight: 700; color: var(--white); letter-spacing: .5px;
+      display: flex; align-items: center; gap: 10px; text-decoration: none;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,.85); text-decoration: none; font-size: .93rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover { color: var(--accent); }
+    .lang-selector { display: flex; gap: 6px; }
+    .lang-btn {
+      background: transparent; border: 1.5px solid rgba(255,255,255,.35);
+      color: rgba(255,255,255,.75); border-radius: 6px;
+      padding: 3px 9px; font-size: .82rem; cursor: pointer; font-weight: 600; transition: all .2s;
+    }
+    .lang-btn.active, .lang-btn:hover { background: var(--accent); border-color: var(--accent); color: var(--white); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 2.5px; background: var(--white); border-radius: 2px; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #0f2540 60%, #1e3a5a 100%);
+      color: var(--white); text-align: center;
+      padding: 100px 5vw 80px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+    }
+    .hero-tag {
+      display: inline-block; background: var(--accent); color: var(--white);
+      font-size: .78rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      padding: 4px 14px; border-radius: 20px; margin-bottom: 20px;
+    }
+    .hero h1 { font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 800; line-height: 1.2; margin-bottom: 16px; position: relative; }
+    .hero h1 em { color: var(--accent); font-style: normal; }
+    .hero p { font-size: 1.1rem; color: rgba(255,255,255,.8); max-width: 580px; margin: 0 auto 36px; line-height: 1.6; position: relative; }
+    .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; position: relative; }
+    .btn-primary {
+      background: var(--accent); color: var(--white); border: none;
+      padding: 14px 30px; border-radius: 8px; font-size: 1rem; font-weight: 700;
+      cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      transition: transform .15s, box-shadow .15s;
+      box-shadow: 0 4px 16px rgba(232,160,32,.4);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,160,32,.5); }
+    .btn-outline {
+      background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,.5);
+      padding: 12px 28px; border-radius: 8px; font-size: 1rem; font-weight: 600;
+      cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      transition: all .15s;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,.1); border-color: var(--white); }
+    .hero-stats {
+      display: flex; justify-content: center; gap: 48px; margin-top: 60px;
+      position: relative; padding-top: 40px; flex-wrap: wrap;
+    }
+    .hero-stats::before {
+      content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 80px; height: 1px; background: rgba(255,255,255,.2);
+    }
+    .stat { text-align: center; }
+    .stat strong { display: block; font-size: 2rem; font-weight: 800; color: var(--accent); }
+    .stat span { font-size: .85rem; color: rgba(255,255,255,.65); }
+
+    /* SERVICIOS */
+    .section { padding: 80px 5vw; }
+    .section-label { font-size: .78rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+    .section-title { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; color: var(--primary); margin-bottom: 12px; }
+    .section-sub { color: var(--muted); max-width: 520px; line-height: 1.6; margin-bottom: 48px; }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+    .service-card {
+      background: var(--white); border: 1.5px solid #e8edf3;
+      border-radius: var(--radius); padding: 28px 24px;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+      cursor: default;
+    }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--accent); }
+    .service-icon {
+      width: 52px; height: 52px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary), #2a5a8c);
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 18px; font-size: 1.5rem;
+    }
+    .service-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+    .service-card p { font-size: .9rem; color: var(--muted); line-height: 1.55; }
+    .service-tag {
+      display: inline-block; margin-top: 14px;
+      font-size: .75rem; font-weight: 700; color: var(--accent);
+      background: rgba(232,160,32,.1); padding: 3px 10px; border-radius: 20px;
+    }
+
+    /* POR QUÉ */
+    .why { background: var(--light); }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .why-item { background: var(--white); border-radius: var(--radius); padding: 28px 22px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,.05); }
+    .why-icon { font-size: 2rem; margin-bottom: 12px; }
+    .why-item h4 { font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 6px; }
+    .why-item p { font-size: .88rem; color: var(--muted); line-height: 1.5; }
+
+    /* TESTIMONIOS */
+    .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+    .testimonial {
+      background: var(--light); border-radius: var(--radius); padding: 28px 24px;
+      position: relative; border-left: 4px solid var(--accent);
+    }
+    .testimonial::before { content: '"'; font-size: 4rem; color: var(--accent); opacity: .2; position: absolute; top: 8px; right: 18px; font-family: Georgia, serif; line-height: 1; }
+    .testimonial p { font-size: .93rem; color: var(--text); line-height: 1.6; margin-bottom: 16px; font-style: italic; }
+    .testimonial-author { font-size: .85rem; font-weight: 700; color: var(--primary); }
+    .stars { color: #f59e0b; font-size: .9rem; margin-bottom: 10px; }
+
+    /* CONTACTO */
+    .contact { background: var(--primary); color: var(--white); }
+    .contact .section-title { color: var(--white); }
+    .contact .section-sub { color: rgba(255,255,255,.7); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+    .contact-info { display: flex; flex-direction: column; gap: 20px; }
+    .contact-item { display: flex; gap: 14px; align-items: flex-start; }
+    .contact-icon { width: 44px; height: 44px; background: rgba(255,255,255,.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+    .contact-item h4 { font-size: .85rem; color: rgba(255,255,255,.6); margin-bottom: 3px; }
+    .contact-item p, .contact-item a { font-size: .95rem; color: var(--white); text-decoration: none; font-weight: 500; }
+    .contact-item a:hover { color: var(--accent); }
+    .map-placeholder {
+      border-radius: var(--radius); overflow: hidden; height: 280px;
+      background: rgba(255,255,255,.08); display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 10px; font-size: 2rem;
+      border: 1.5px dashed rgba(255,255,255,.2);
+    }
+    .map-placeholder p { font-size: .9rem; color: rgba(255,255,255,.5); }
+    .wapp-cta {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #25d366; color: var(--white); border: none;
+      padding: 14px 28px; border-radius: 8px; font-size: 1rem; font-weight: 700;
+      text-decoration: none; margin-top: 28px; cursor: pointer; transition: transform .15s;
+    }
+    .wapp-cta:hover { transform: translateY(-2px); }
+
+    /* FOOTER */
+    footer {
+      background: #0f1e2f; color: rgba(255,255,255,.5);
+      text-align: center; padding: 28px 5vw; font-size: .82rem;
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    footer a { color: rgba(255,255,255,.5); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+    .powered {
+      font-size: .75rem; margin-top: 6px;
+      color: rgba(255,255,255,.25);
+    }
+    .powered a { color: rgba(255,255,255,.35); }
+
+    /* CHATBOT */
+    .chat-fab {
+      position: fixed; bottom: 28px; right: 28px; z-index: 999;
+      width: 60px; height: 60px; border-radius: 50%;
+      background: var(--accent); color: var(--white); border: none;
+      font-size: 1.6rem; cursor: pointer; box-shadow: 0 4px 20px rgba(232,160,32,.55);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform .2s, box-shadow .2s;
+      animation: pulse 2.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 4px 20px rgba(232,160,32,.55); }
+      50% { box-shadow: 0 4px 32px rgba(232,160,32,.85); }
+    }
+    .chat-fab:hover { transform: scale(1.08); animation: none; box-shadow: 0 8px 28px rgba(232,160,32,.7); }
+    .chat-window {
+      position: fixed; bottom: 100px; right: 28px; z-index: 998;
+      width: 340px; max-height: 520px;
+      background: var(--white); border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(0,0,0,.18);
+      display: flex; flex-direction: column; overflow: hidden;
+      transform: scale(0); transform-origin: bottom right;
+      transition: transform .25s cubic-bezier(.34,1.56,.64,1);
+      pointer-events: none;
+    }
+    .chat-window.open { transform: scale(1); pointer-events: all; }
+    .chat-header {
+      background: var(--primary); color: var(--white);
+      padding: 16px 18px; display: flex; align-items: center; gap: 10px;
+    }
+    .chat-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 1rem; }
+    .chat-header-text h4 { font-size: .95rem; font-weight: 700; }
+    .chat-header-text p { font-size: .75rem; color: rgba(255,255,255,.65); }
+    .chat-close { margin-left: auto; background: none; border: none; color: rgba(255,255,255,.7); cursor: pointer; font-size: 1.1rem; }
+    .chat-body { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .chat-msg {
+      max-width: 85%; padding: 10px 14px; border-radius: 12px; font-size: .88rem; line-height: 1.45;
+      animation: msgIn .2s ease;
+    }
+    @keyframes msgIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .chat-msg.bot { background: var(--light); color: var(--text); border-bottom-left-radius: 4px; align-self: flex-start; }
+    .chat-msg.user { background: var(--primary); color: var(--white); border-bottom-right-radius: 4px; align-self: flex-end; }
+    .chat-options { display: flex; flex-direction: column; gap: 7px; }
+    .chat-opt-btn {
+      background: var(--white); border: 1.5px solid #dde3ea; color: var(--primary);
+      padding: 9px 13px; border-radius: 8px; text-align: left; font-size: .85rem;
+      cursor: pointer; font-weight: 500; transition: all .15s;
+    }
+    .chat-opt-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(232,160,32,.05); }
+    .chat-wapp-btn {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      background: #25d366; color: var(--white); border: none;
+      padding: 12px; border-radius: 8px; font-size: .9rem; font-weight: 700;
+      cursor: pointer; text-decoration: none; transition: transform .15s; margin-top: 6px;
+    }
+    .chat-wapp-btn:hover { transform: translateY(-1px); }
+    .typing { display: flex; gap: 4px; align-items: center; padding: 10px 14px; background: var(--light); border-radius: 12px; border-bottom-left-radius: 4px; width: fit-content; }
+    .typing span { width: 7px; height: 7px; background: var(--muted); border-radius: 50%; animation: dot .9s infinite; }
+    .typing span:nth-child(2) { animation-delay: .2s; }
+    .typing span:nth-child(3) { animation-delay: .4s; }
+    @keyframes dot { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-6px); } }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: var(--primary); padding: 20px 5vw; gap: 16px; box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+      .hamburger { display: flex; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .chat-window { width: calc(100vw - 32px); right: 16px; }
+      .hero-stats { gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Navegación principal">
+  <a href="#inicio" class="nav-logo">
+    <span>V</span>ijande
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#servicios" data-i18n="nav_services">Servicios</a></li>
+    <li><a href="#por-que" data-i18n="nav_why">Por qué nosotros</a></li>
+    <li><a href="#testimonios" data-i18n="nav_testimonials">Opiniones</a></li>
+    <li><a href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:14px;">
+    <div class="lang-selector" role="group" aria-label="Selector de idioma">
+      <button class="lang-btn active" onclick="setLang('es')" aria-label="Español">ES</button>
+      <button class="lang-btn" onclick="setLang('en')" aria-label="English">EN</button>
+      <button class="lang-btn" onclick="setLang('de')" aria-label="Deutsch">DE</button>
+    </div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menú" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <div class="hero-tag" data-i18n="hero_tag">Gestoría Oficial · Ibiza</div>
+  <h1 id="hero-title" data-i18n="hero_title">Tus Trámites en Ibiza,<br><em>Resueltos Sin Estrés</em></h1>
+  <p data-i18n="hero_sub">Matriculaciones, transferencias, renovación de carnet y trámites náuticos. Profesionales de confianza en Eivissa desde hace años.</p>
+  <div class="hero-ctas">
+    <a href="#servicios" class="btn-primary" data-i18n="hero_cta1">Ver servicios</a>
+    <a href="https://wa.me/34971318078?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20un%20tr%C3%A1mite" class="btn-outline" target="_blank" rel="noopener" data-i18n="hero_cta2">WhatsApp directo</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><strong>+5.000</strong><span data-i18n="stat1">Trámites gestionados</span></div>
+    <div class="stat"><strong>100%</strong><span data-i18n="stat2">Satisfacción garantizada</span></div>
+    <div class="stat"><strong>24h</strong><span data-i18n="stat3">Respuesta garantizada</span></div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="section" id="servicios" aria-labelledby="services-title">
+  <p class="section-label" data-i18n="services_label">Nuestros servicios</p>
+  <h2 class="section-title" id="services-title" data-i18n="services_title">Todo lo que necesitas,<br>en un solo lugar</h2>
+  <p class="section-sub" data-i18n="services_sub">Especializados en trámites de vehículos y embarcaciones en Ibiza. Rápido, seguro y sin complicaciones.</p>
+  <div class="services-grid">
+    <article class="service-card">
+      <div class="service-icon">🚗</div>
+      <h3 data-i18n="s1_title">Matriculaciones</h3>
+      <p data-i18n="s1_desc">Registro de vehículos nuevos o importados de forma rápida y segura. Nos ocupamos de toda la documentación ante Tráfico.</p>
+      <span class="service-tag" data-i18n="s1_tag">Vehículos nuevos · Importaciones</span>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">🔄</div>
+      <h3 data-i18n="s2_title">Transferencias</h3>
+      <p data-i18n="s2_desc">Cambio de titularidad de vehículos de segunda mano. Comprador o vendedor, gestionamos el trámite completo.</p>
+      <span class="service-tag" data-i18n="s2_tag">Compraventa · Segunda mano</span>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">🪪</div>
+      <h3 data-i18n="s3_title">Renovación de Carnet</h3>
+      <p data-i18n="s3_desc">Renovación del permiso de conducción sin colas ni esperas. Tramitamos tu renovación con la DGT de manera ágil.</p>
+      <span class="service-tag" data-i18n="s3_tag">DGT · Sin desplazamientos</span>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">⚓</div>
+      <h3 data-i18n="s4_title">Embarcaciones y Motos Náuticas</h3>
+      <p data-i18n="s4_desc">Cambio de titularidad de embarcaciones y motos náuticas. Gestiones ante Capitanía Marítima de Eivissa.</p>
+      <span class="service-tag" data-i18n="s4_tag">Capitanía Marítima · Náutica</span>
+    </article>
+    <article class="service-card">
+      <div class="service-icon">📋</div>
+      <h3 data-i18n="s5_title">Otros Trámites</h3>
+      <p data-i18n="s5_desc">Duplicados de permisos, notificaciones de venta, bajas de vehículos y cualquier gestión administrativa que necesites.</p>
+      <span class="service-tag" data-i18n="s5_tag">Duplicados · Bajas · Notificaciones</span>
+    </article>
+  </div>
+</section>
+
+<!-- POR QUÉ -->
+<section class="section why" id="por-que" aria-labelledby="why-title">
+  <p class="section-label" data-i18n="why_label">Nuestros valores</p>
+  <h2 class="section-title" id="why-title" data-i18n="why_title">¿Por qué elegir Vijande?</h2>
+  <p class="section-sub" data-i18n="why_sub">Llevamos años siendo el despacho de confianza de los ibicencos para sus gestiones administrativas.</p>
+  <div class="why-grid">
+    <div class="why-item">
+      <div class="why-icon">⚡</div>
+      <h4 data-i18n="w1_title">Rapidez</h4>
+      <p data-i18n="w1_desc">Tramitamos en el menor tiempo posible, coordinando directamente con los organismos oficiales.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🤝</div>
+      <h4 data-i18n="w2_title">Trato cercano</h4>
+      <p data-i18n="w2_desc">Atención personalizada. Conocemos a nuestros clientes y sus necesidades concretas.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">🔒</div>
+      <h4 data-i18n="w3_title">Seguridad</h4>
+      <p data-i18n="w3_desc">Gestionamos con rigor y total confidencialidad. Tus datos y documentación siempre protegidos.</p>
+    </div>
+    <div class="why-item">
+      <div class="why-icon">💶</div>
+      <h4 data-i18n="w4_title">Precios justos</h4>
+      <p data-i18n="w4_desc">Tarifas claras sin sorpresas. Presupuesto previo y honesto antes de empezar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section" id="testimonios" aria-labelledby="test-title">
+  <p class="section-label" data-i18n="test_label">Opiniones reales</p>
+  <h2 class="section-title" id="test-title" data-i18n="test_title">Lo que dicen nuestros clientes</h2>
+  <p class="section-sub" data-i18n="test_sub">La confianza de cientos de clientes satisfechos en Ibiza nos respalda.</p>
+  <div class="testimonials-grid">
+    <blockquote class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p data-i18n="t1_text">"Increíble servicio. Gestionaron mi matrícula en tiempo récord y con un precio muy competitivo. Totalmente recomendable."</p>
+      <cite class="testimonial-author">Alejandro Martínez</cite>
+    </blockquote>
+    <blockquote class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p data-i18n="t2_text">"Muy profesionales y rápidos. Llevé la transferencia de mi coche y en dos días estaba todo listo. Sin complicaciones."</p>
+      <cite class="testimonial-author">Joaquín Coll</cite>
+    </blockquote>
+    <blockquote class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p data-i18n="t3_text">"El trato es excelente, muy cercanos y atentos. Siempre dispuestos a ayudar y resolver cualquier duda. 100% recomiendo."</p>
+      <cite class="testimonial-author">Mar A.</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section contact" id="contacto" aria-labelledby="contact-title">
+  <p class="section-label" style="color:var(--accent);" data-i18n="contact_label">Dónde encontrarnos</p>
+  <h2 class="section-title" id="contact-title" data-i18n="contact_title">Visítanos o escríbenos</h2>
+  <p class="section-sub" data-i18n="contact_sub">Estamos en el centro de Eivissa. También puedes contactarnos por WhatsApp o email y te respondemos en menos de 24h.</p>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <h4 data-i18n="c_address_label">Dirección</h4>
+          <p>Av. Ignacio Wallis, 52 bajo<br>07800 Eivissa, Illes Balears</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div>
+          <h4 data-i18n="c_phone_label">Teléfono</h4>
+          <a href="tel:+34971318078">971 318 078</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <h4 data-i18n="c_email_label">Email</h4>
+          <a href="mailto:gestoriavijande@gmail.com">gestoriavijande@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div>
+          <h4 data-i18n="c_hours_label">Horario</h4>
+          <p data-i18n="c_hours">Lunes a Viernes · 9:00 – 14:00</p>
+        </div>
+      </div>
+      <a href="https://wa.me/34971318078?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20o%20consultar%20un%20tr%C3%A1mite" class="wapp-cta" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span data-i18n="wapp_cta">Pedir cita por WhatsApp</span>
+      </a>
+    </div>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.2!2d1.4205!3d38.9068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAv.%20Ignacio%20Wallis%2052%2C%20Eivissa!5e0!3m2!1ses!2ses!4v1"
+        width="100%" height="280" style="border:0;border-radius:12px;filter:invert(90%) hue-rotate(180deg);"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Ubicación Gestoría Vijande">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <strong style="color:rgba(255,255,255,.7);">Gestión y Asesoramiento Vijande</strong> ·
+    Av. Ignacio Wallis 52 bajo, 07800 Eivissa ·
+    <a href="tel:+34971318078">971 318 078</a>
+  </div>
+  <div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
+    <a href="#" data-i18n="footer_legal">Aviso Legal</a>
+    <a href="#" data-i18n="footer_privacy">Política de Privacidad</a>
+    <a href="#" data-i18n="footer_cookies">Política de Cookies</a>
+  </div>
+  <div>© <span id="year"></span> Gestión y Asesoramiento Vijande</div>
+  <div class="powered">Powered by <a href="https://chainsofbrains.com" target="_blank" rel="noopener">Chains of Brains</a></div>
+</footer>
+
+<!-- CHATBOT FAB -->
+<button class="chat-fab" onclick="toggleChat()" id="chatFab" aria-label="Abrir asistente de trámites" title="¿En qué tramite puedo ayudarte?">
+  💬
+</button>
+
+<!-- CHATBOT WINDOW -->
+<div class="chat-window" id="chatWindow" role="dialog" aria-modal="true" aria-label="Asistente de trámites">
+  <div class="chat-header">
+    <div class="chat-avatar">V</div>
+    <div class="chat-header-text">
+      <h4 data-i18n="chat_name">Asistente Vijande</h4>
+      <p data-i18n="chat_status">🟢 En línea · Responde al instante</p>
+    </div>
+    <button class="chat-close" onclick="toggleChat()" aria-label="Cerrar chat">✕</button>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+</div>
+
+<script>
+// ─── i18n ───────────────────────────────────────────────────────────────────
+const i18n = {
+  es: {
+    nav_services: 'Servicios', nav_why: 'Por qué nosotros', nav_testimonials: 'Opiniones', nav_contact: 'Contacto',
+    hero_tag: 'Gestoría Oficial · Ibiza',
+    hero_title: 'Tus Trámites en Ibiza,<br><em>Resueltos Sin Estrés</em>',
+    hero_sub: 'Matriculaciones, transferencias, renovación de carnet y trámites náuticos. Profesionales de confianza en Eivissa.',
+    hero_cta1: 'Ver servicios', hero_cta2: 'WhatsApp directo',
+    stat1: 'Trámites gestionados', stat2: 'Satisfacción garantizada', stat3: 'Respuesta garantizada',
+    services_label: 'Nuestros servicios',
+    services_title: 'Todo lo que necesitas,<br>en un solo lugar',
+    services_sub: 'Especializados en trámites de vehículos y embarcaciones en Ibiza. Rápido, seguro y sin complicaciones.',
+    s1_title: 'Matriculaciones', s1_desc: 'Registro de vehículos nuevos o importados de forma rápida y segura. Nos ocupamos de toda la documentación ante Tráfico.', s1_tag: 'Vehículos nuevos · Importaciones',
+    s2_title: 'Transferencias', s2_desc: 'Cambio de titularidad de vehículos de segunda mano. Comprador o vendedor, gestionamos el trámite completo.', s2_tag: 'Compraventa · Segunda mano',
+    s3_title: 'Renovación de Carnet', s3_desc: 'Renovación del permiso de conducción sin colas ni esperas. Tramitamos tu renovación con la DGT de manera ágil.', s3_tag: 'DGT · Sin desplazamientos',
+    s4_title: 'Embarcaciones y Motos Náuticas', s4_desc: 'Cambio de titularidad de embarcaciones y motos náuticas. Gestiones ante Capitanía Marítima de Eivissa.', s4_tag: 'Capitanía Marítima · Náutica',
+    s5_title: 'Otros Trámites', s5_desc: 'Duplicados de permisos, notificaciones de venta, bajas de vehículos y cualquier gestión administrativa que necesites.', s5_tag: 'Duplicados · Bajas · Notificaciones',
+    why_label: 'Nuestros valores', why_title: '¿Por qué elegir Vijande?', why_sub: 'Llevamos años siendo el despacho de confianza de los ibicencos para sus gestiones administrativas.',
+    w1_title: 'Rapidez', w1_desc: 'Tramitamos en el menor tiempo posible, coordinando directamente con los organismos oficiales.',
+    w2_title: 'Trato cercano', w2_desc: 'Atención personalizada. Conocemos a nuestros clientes y sus necesidades concretas.',
+    w3_title: 'Seguridad', w3_desc: 'Gestionamos con rigor y total confidencialidad. Tus datos y documentación siempre protegidos.',
+    w4_title: 'Precios justos', w4_desc: 'Tarifas claras sin sorpresas. Presupuesto previo y honesto antes de empezar.',
+    test_label: 'Opiniones reales', test_title: 'Lo que dicen nuestros clientes', test_sub: 'La confianza de cientos de clientes satisfechos en Ibiza nos respalda.',
+    t1_text: '"Increíble servicio. Gestionaron mi matrícula en tiempo récord y con un precio muy competitivo. Totalmente recomendable."',
+    t2_text: '"Muy profesionales y rápidos. Llevé la transferencia de mi coche y en dos días estaba todo listo. Sin complicaciones."',
+    t3_text: '"El trato es excelente, muy cercanos y atentos. Siempre dispuestos a ayudar y resolver cualquier duda. 100% recomiendo."',
+    contact_label: 'Dónde encontrarnos', contact_title: 'Visítanos o escríbenos', contact_sub: 'Estamos en el centro de Eivissa. También puedes contactarnos por WhatsApp o email y te respondemos en menos de 24h.',
+    c_address_label: 'Dirección', c_phone_label: 'Teléfono', c_email_label: 'Email', c_hours_label: 'Horario', c_hours: 'Lunes a Viernes · 9:00 – 14:00',
+    wapp_cta: 'Pedir cita por WhatsApp',
+    footer_legal: 'Aviso Legal', footer_privacy: 'Política de Privacidad', footer_cookies: 'Política de Cookies',
+    chat_name: 'Asistente Vijande', chat_status: '🟢 En línea · Responde al instante',
+  },
+  en: {
+    nav_services: 'Services', nav_why: 'Why us', nav_testimonials: 'Reviews', nav_contact: 'Contact',
+    hero_tag: 'Official Agency · Ibiza',
+    hero_title: 'Your Paperwork in Ibiza,<br><em>Handled Stress-Free</em>',
+    hero_sub: 'Vehicle registrations, transfers, driving licence renewals and nautical procedures. Trusted professionals in Eivissa.',
+    hero_cta1: 'View services', hero_cta2: 'WhatsApp direct',
+    stat1: 'Procedures handled', stat2: 'Satisfaction guaranteed', stat3: 'Response guaranteed',
+    services_label: 'Our services',
+    services_title: 'Everything you need,<br>in one place',
+    services_sub: 'Specialised in vehicle and boat paperwork in Ibiza. Fast, safe and hassle-free.',
+    s1_title: 'Vehicle Registration', s1_desc: 'New or imported vehicle registration. We handle all documentation with the Traffic Authority.', s1_tag: 'New vehicles · Imports',
+    s2_title: 'Ownership Transfers', s2_desc: 'Change of ownership for second-hand vehicles. Whether buyer or seller, we manage the full procedure.', s2_tag: 'Sale · Second-hand',
+    s3_title: 'Driving Licence Renewal', s3_desc: 'Renew your driving licence without queues or delays. We process your renewal with the DGT efficiently.', s3_tag: 'DGT · No travel needed',
+    s4_title: 'Boats & Jet Skis', s4_desc: 'Ownership transfers for boats and jet skis. Procedures with the Maritime Authority of Eivissa.', s4_tag: 'Maritime Authority · Nautical',
+    s5_title: 'Other Procedures', s5_desc: 'Duplicate licences, sale notifications, vehicle deregistration and any administrative procedure you need.', s5_tag: 'Duplicates · Deregistration',
+    why_label: 'Our values', why_title: 'Why choose Vijande?', why_sub: 'For years, the trusted agency for residents of Ibiza for their administrative procedures.',
+    w1_title: 'Speed', w1_desc: 'We process everything as fast as possible, coordinating directly with official bodies.',
+    w2_title: 'Personal touch', w2_desc: 'Personalised attention. We know our clients and their specific needs.',
+    w3_title: 'Security', w3_desc: 'We work with rigour and full confidentiality. Your data and documents always protected.',
+    w4_title: 'Fair prices', w4_desc: 'Clear rates with no surprises. Honest upfront quote before we start.',
+    test_label: 'Real reviews', test_title: 'What our clients say', test_sub: 'The trust of hundreds of satisfied clients in Ibiza speaks for itself.',
+    t1_text: '"Incredible service. They handled my registration in record time at a very competitive price. Highly recommended."',
+    t2_text: '"Very professional and fast. I brought in my car transfer and within two days everything was done. No complications."',
+    t3_text: '"Excellent treatment, very friendly and attentive. Always ready to help and answer any questions. 100% recommend."',
+    contact_label: 'Find us', contact_title: 'Visit us or get in touch', contact_sub: 'We are in the centre of Eivissa. You can also contact us by WhatsApp or email — we reply within 24h.',
+    c_address_label: 'Address', c_phone_label: 'Phone', c_email_label: 'Email', c_hours_label: 'Opening hours', c_hours: 'Monday to Friday · 9:00 – 14:00',
+    wapp_cta: 'Book appointment on WhatsApp',
+    footer_legal: 'Legal Notice', footer_privacy: 'Privacy Policy', footer_cookies: 'Cookie Policy',
+    chat_name: 'Vijande Assistant', chat_status: '🟢 Online · Instant reply',
+  },
+  de: {
+    nav_services: 'Leistungen', nav_why: 'Warum wir', nav_testimonials: 'Bewertungen', nav_contact: 'Kontakt',
+    hero_tag: 'Offizielle Agentur · Ibiza',
+    hero_title: 'Ihre Behördengänge in Ibiza,<br><em>Stressfrei Erledigt</em>',
+    hero_sub: 'Fahrzeugzulassungen, Eigentumsübertragungen, Führerscheinerneuerungen und Schiffsangelegenheiten. Vertrauenswürdige Profis in Eivissa.',
+    hero_cta1: 'Leistungen ansehen', hero_cta2: 'WhatsApp direkt',
+    stat1: 'Erledigte Vorgänge', stat2: 'Zufriedenheit garantiert', stat3: 'Antwort garantiert',
+    services_label: 'Unsere Leistungen',
+    services_title: 'Alles was Sie brauchen,<br>an einem Ort',
+    services_sub: 'Spezialisiert auf Fahrzeug- und Schiffsangelegenheiten in Ibiza. Schnell, sicher und ohne Komplikationen.',
+    s1_title: 'Fahrzeugzulassung', s1_desc: 'Zulassung neuer oder importierter Fahrzeuge. Wir kümmern uns um alle Dokumente bei der Verkehrsbehörde.', s1_tag: 'Neufahrzeuge · Importe',
+    s2_title: 'Eigentumsübertragung', s2_desc: 'Besitzerwechsel für Gebrauchtfahrzeuge. Ob Käufer oder Verkäufer – wir übernehmen das gesamte Verfahren.', s2_tag: 'Verkauf · Gebraucht',
+    s3_title: 'Führerscheinerneuerung', s3_desc: 'Führerscheinerneuerung ohne Wartezeiten. Wir bearbeiten Ihre Erneuerung effizient bei der DGT.', s3_tag: 'DGT · Ohne Anfahrt',
+    s4_title: 'Boote & Jetskis', s4_desc: 'Eigentumsübertragung für Boote und Jetskis. Behördengang bei der Hafenbehörde Eivissa.', s4_tag: 'Hafenbehörde · Nautisch',
+    s5_title: 'Weitere Vorgänge', s5_desc: 'Duplikate, Verkaufsmitteilungen, Fahrzeugabmeldung und alle weiteren Verwaltungsvorgänge, die Sie benötigen.', s5_tag: 'Duplikate · Abmeldung',
+    why_label: 'Unsere Werte', why_title: 'Warum Vijande wählen?', why_sub: 'Seit Jahren die vertrauenswürdige Agentur der Ibiza-Bewohner für ihre Verwaltungsangelegenheiten.',
+    w1_title: 'Schnelligkeit', w1_desc: 'Wir bearbeiten alles so schnell wie möglich in direkter Koordination mit den Behörden.',
+    w2_title: 'Persönliche Betreuung', w2_desc: 'Individuelle Beratung. Wir kennen unsere Kunden und ihre spezifischen Bedürfnisse.',
+    w3_title: 'Sicherheit', w3_desc: 'Wir arbeiten sorgfältig und vertraulich. Ihre Daten und Dokumente stets geschützt.',
+    w4_title: 'Faire Preise', w4_desc: 'Klare Tarife ohne Überraschungen. Ehrliches Angebot im Voraus.',
+    test_label: 'Echte Bewertungen', test_title: 'Was unsere Kunden sagen', test_sub: 'Das Vertrauen von Hunderten zufriedener Kunden in Ibiza spricht für sich.',
+    t1_text: '"Unglaublicher Service. Sie haben meine Zulassung in Rekordzeit zu einem sehr wettbewerbsfähigen Preis erledigt. Sehr empfehlenswert."',
+    t2_text: '"Sehr professionell und schnell. Ich habe die Übertragung meines Autos eingereicht und innerhalb von zwei Tagen war alles fertig."',
+    t3_text: '"Die Betreuung ist ausgezeichnet, sehr freundlich und aufmerksam. Immer bereit zu helfen und alle Fragen zu beantworten. 100% empfehlenswert."',
+    contact_label: 'Wo Sie uns finden', contact_title: 'Besuchen Sie uns oder schreiben Sie uns', contact_sub: 'Wir befinden uns im Zentrum von Eivissa. Sie können uns auch per WhatsApp oder E-Mail kontaktieren – Antwort innerhalb von 24h.',
+    c_address_label: 'Adresse', c_phone_label: 'Telefon', c_email_label: 'E-Mail', c_hours_label: 'Öffnungszeiten', c_hours: 'Montag bis Freitag · 9:00 – 14:00',
+    wapp_cta: 'Termin per WhatsApp buchen',
+    footer_legal: 'Impressum', footer_privacy: 'Datenschutzrichtlinie', footer_cookies: 'Cookie-Richtlinie',
+    chat_name: 'Vijande Assistent', chat_status: '🟢 Online · Sofortantwort',
+  }
+};
+
+let currentLang = 'es';
+
+function setLang(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (i18n[lang][key] !== undefined) el.innerHTML = i18n[lang][key];
+  });
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent === lang.toUpperCase());
+  });
+  // Reset chatbot for new language
+  if (chatOpen) { resetChat(); }
+}
+
+// ─── NAV ────────────────────────────────────────────────────────────────────
+function toggleMenu() {
+  document.getElementById('navLinks').classList.toggle('open');
+}
+
+// ─── FOOTER YEAR ────────────────────────────────────────────────────────────
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// ─── CHATBOT ────────────────────────────────────────────────────────────────
+let chatOpen = false;
+let chatStarted = false;
+
+const chatTexts = {
+  es: {
+    welcome: '¡Hola! Soy el asistente de Gestoría Vijande. ¿Qué trámite necesitas gestionar?',
+    q_tramite: '¿Qué trámite necesitas?',
+    opts_main: ['🚗 Matriculación de vehículo', '🔄 Transferencia', '🪪 Renovación de carnet', '⚓ Embarcación / Moto náutica', '📋 Otro trámite'],
+    // MATRICULACIÓN
+    q_mat: '¿Se trata de un vehículo nuevo o importado?',
+    opts_mat: ['Vehículo nuevo (compra en concesionario)', 'Vehículo importado (de otro país)'],
+    info_mat_new: 'Para matricular un vehículo nuevo necesitarás: DNI/NIE, factura de compra, ficha técnica y justificante del pago de impuestos. Lo gestionamos en 24-48h.',
+    info_mat_imp: 'Para matricular un vehículo importado necesitarás: título de propiedad extranjero, ITV de homologación, DNI/NIE y declaración de importación. Cuéntanos tu caso.',
+    // TRANSFERENCIA
+    q_trans: '¿Eres el comprador o el vendedor?',
+    opts_trans: ['Soy el comprador', 'Soy el vendedor'],
+    info_trans_buy: 'Como comprador necesitarás el contrato de compraventa, DNI/NIE y el permiso de circulación del vehículo. Nosotros gestionamos el resto ante Tráfico.',
+    info_trans_sell: 'Como vendedor necesitarás el permiso de circulación, la ficha técnica y tu DNI/NIE. Te ayudamos con la notificación de venta para evitar multas futuras.',
+    // CARNET
+    q_card: '¿Qué necesitas con tu carnet de conducir?',
+    opts_card: ['Renovar el carnet (caducado o próximo a caducar)', 'Duplicado por pérdida o robo'],
+    info_card_ren: 'Para renovar el carnet necesitas tu DNI/NIE vigente, el carnet actual y pasar el reconocimiento médico. Lo tramitamos con la DGT sin desplazamientos innecesarios.',
+    info_card_dup: 'Para el duplicado por pérdida o robo necesitas presentar denuncia previa y DNI/NIE. Te gestionamos el duplicado urgente.',
+    // NÁUTICA
+    info_naut: 'Para la transferencia de embarcación o moto náutica necesitas: contrato de compraventa, documentación de la embarcación, DNI/NIE y seguro en vigor. Tramitamos ante Capitanía Marítima de Eivissa.',
+    // OTRO
+    info_other: 'Sin problema. Cuéntanos qué trámite necesitas por WhatsApp y te asesoramos de inmediato. Gestionamos duplicados, bajas, notificaciones de venta y mucho más.',
+    // AGENDA
+    q_agenda: '¿Te gustaría agendar una cita o consultar por WhatsApp?',
+    btn_wapp: '📲 Contactar por WhatsApp',
+    wapp_msg_mat_new: 'Hola, necesito gestionar la matriculación de un vehículo nuevo.',
+    wapp_msg_mat_imp: 'Hola, necesito gestionar la matriculación de un vehículo importado.',
+    wapp_msg_trans_buy: 'Hola, necesito gestionar una transferencia como comprador.',
+    wapp_msg_trans_sell: 'Hola, necesito gestionar una transferencia como vendedor.',
+    wapp_msg_card_ren: 'Hola, necesito renovar mi carnet de conducir.',
+    wapp_msg_card_dup: 'Hola, necesito un duplicado de mi carnet de conducir.',
+    wapp_msg_naut: 'Hola, necesito gestionar la transferencia de una embarcación o moto náutica.',
+    wapp_msg_other: 'Hola, necesito asesoramiento sobre un trámite.',
+    agenda_yes: 'Perfecto. Haz clic abajo para abrir WhatsApp y te atendemos al momento:',
+  },
+  en: {
+    welcome: 'Hi! I\'m the Gestoría Vijande assistant. What procedure do you need help with?',
+    q_tramite: 'What do you need?',
+    opts_main: ['🚗 Vehicle registration', '🔄 Ownership transfer', '🪪 Driving licence renewal', '⚓ Boat / Jet ski', '📋 Other procedure'],
+    q_mat: 'Is this a new or imported vehicle?',
+    opts_mat: ['New vehicle (dealership purchase)', 'Imported vehicle (from abroad)'],
+    info_mat_new: 'To register a new vehicle you\'ll need: ID/NIE, purchase invoice, technical sheet and proof of tax payment. We handle it within 24-48h.',
+    info_mat_imp: 'To register an imported vehicle you\'ll need: foreign title, ITV homologation, ID/NIE and import declaration. Tell us your case.',
+    q_trans: 'Are you the buyer or the seller?',
+    opts_trans: ['I am the buyer', 'I am the seller'],
+    info_trans_buy: 'As a buyer you\'ll need the sale contract, ID/NIE and the vehicle circulation permit. We handle the rest with the Traffic Authority.',
+    info_trans_sell: 'As a seller you\'ll need the circulation permit, technical sheet and ID/NIE. We help you with the sale notification to avoid future fines.',
+    q_card: 'What do you need for your driving licence?',
+    opts_card: ['Renew the licence (expired or about to expire)', 'Duplicate for loss or theft'],
+    info_card_ren: 'To renew your licence you need a valid ID/NIE, the current licence and a medical check-up. We process it with the DGT with no unnecessary travel.',
+    info_card_dup: 'For a duplicate due to loss or theft you need to file a police report and your ID/NIE. We process the urgent duplicate.',
+    info_naut: 'For a boat or jet ski transfer you\'ll need: sale contract, vessel documentation, ID/NIE and valid insurance. We handle it with the Maritime Authority of Eivissa.',
+    info_other: 'No problem. Tell us what procedure you need via WhatsApp and we\'ll advise you immediately. We handle duplicates, deregistrations, sale notifications and much more.',
+    q_agenda: 'Would you like to book an appointment or ask via WhatsApp?',
+    btn_wapp: '📲 Contact via WhatsApp',
+    wapp_msg_mat_new: 'Hello, I need to register a new vehicle.',
+    wapp_msg_mat_imp: 'Hello, I need to register an imported vehicle.',
+    wapp_msg_trans_buy: 'Hello, I need to process a vehicle transfer as a buyer.',
+    wapp_msg_trans_sell: 'Hello, I need to process a vehicle transfer as a seller.',
+    wapp_msg_card_ren: 'Hello, I need to renew my driving licence.',
+    wapp_msg_card_dup: 'Hello, I need a duplicate of my driving licence.',
+    wapp_msg_naut: 'Hello, I need to process a boat or jet ski transfer.',
+    wapp_msg_other: 'Hello, I need advice on a procedure.',
+    agenda_yes: 'Great. Click below to open WhatsApp and we\'ll help you right away:',
+  },
+  de: {
+    welcome: 'Hallo! Ich bin der Assistent von Gestoría Vijande. Welchen Vorgang benötigen Sie?',
+    q_tramite: 'Was benötigen Sie?',
+    opts_main: ['🚗 Fahrzeugzulassung', '🔄 Eigentumsübertragung', '🪪 Führerscheinerneuerung', '⚓ Boot / Jetski', '📋 Sonstiger Vorgang'],
+    q_mat: 'Handelt es sich um ein neues oder importiertes Fahrzeug?',
+    opts_mat: ['Neues Fahrzeug (Händlerkauf)', 'Importiertes Fahrzeug (aus dem Ausland)'],
+    info_mat_new: 'Für die Zulassung eines Neuwagens benötigen Sie: Ausweis/NIE, Kaufrechnung, technisches Datenblatt und Steuerzahlungsnachweis. Erledigt in 24-48h.',
+    info_mat_imp: 'Für ein importiertes Fahrzeug benötigen Sie: ausländischen Fahrzeugbrief, ITV-Homologierung, Ausweis/NIE und Importerklärung. Schildern Sie uns Ihren Fall.',
+    q_trans: 'Sind Sie der Käufer oder der Verkäufer?',
+    opts_trans: ['Ich bin der Käufer', 'Ich bin der Verkäufer'],
+    info_trans_buy: 'Als Käufer benötigen Sie den Kaufvertrag, Ausweis/NIE und den Fahrzeugschein. Den Rest erledigen wir bei der Verkehrsbehörde.',
+    info_trans_sell: 'Als Verkäufer benötigen Sie Fahrzeugschein, technisches Datenblatt und Ausweis/NIE. Wir helfen Ihnen mit der Verkaufsmitteilung, um zukünftige Bußgelder zu vermeiden.',
+    q_card: 'Was benötigen Sie für Ihren Führerschein?',
+    opts_card: ['Führerschein erneuern (abgelaufen oder bald ablaufend)', 'Duplikat wegen Verlust oder Diebstahl'],
+    info_card_ren: 'Zur Erneuerung des Führerscheins benötigen Sie einen gültigen Ausweis/NIE, den aktuellen Führerschein und eine ärztliche Untersuchung. Wir bearbeiten es bei der DGT.',
+    info_card_dup: 'Für ein Duplikat wegen Verlust oder Diebstahl benötigen Sie eine Anzeige und Ihren Ausweis/NIE. Wir bearbeiten das dringende Duplikat.',
+    info_naut: 'Für die Übertragung eines Bootes oder Jetskis benötigen Sie: Kaufvertrag, Fahrzeugdokumente, Ausweis/NIE und gültige Versicherung. Wir kümmern uns um die Hafenbehörde Eivissa.',
+    info_other: 'Kein Problem. Teilen Sie uns per WhatsApp mit, welchen Vorgang Sie benötigen, und wir beraten Sie sofort. Wir bearbeiten Duplikate, Abmeldungen, Verkaufsmitteilungen und vieles mehr.',
+    q_agenda: 'Möchten Sie einen Termin buchen oder per WhatsApp anfragen?',
+    btn_wapp: '📲 Per WhatsApp kontaktieren',
+    wapp_msg_mat_new: 'Hallo, ich benötige die Zulassung eines neuen Fahrzeugs.',
+    wapp_msg_mat_imp: 'Hallo, ich benötige die Zulassung eines importierten Fahrzeugs.',
+    wapp_msg_trans_buy: 'Hallo, ich benötige eine Eigentumsübertragung als Käufer.',
+    wapp_msg_trans_sell: 'Hallo, ich benötige eine Eigentumsübertragung als Verkäufer.',
+    wapp_msg_card_ren: 'Hallo, ich möchte meinen Führerschein erneuern.',
+    wapp_msg_card_dup: 'Hallo, ich benötige ein Duplikat meines Führerscheins.',
+    wapp_msg_naut: 'Hallo, ich benötige die Übertragung eines Bootes oder Jetskis.',
+    wapp_msg_other: 'Hallo, ich benötige Beratung zu einem Vorgang.',
+    agenda_yes: 'Perfekt. Klicken Sie unten, um WhatsApp zu öffnen:',
+  }
+};
+
+function toggleChat() {
+  chatOpen = !chatOpen;
+  const win = document.getElementById('chatWindow');
+  const fab = document.getElementById('chatFab');
+  win.classList.toggle('open', chatOpen);
+  fab.textContent = chatOpen ? '✕' : '💬';
+  if (chatOpen && !chatStarted) { startChat(); chatStarted = true; }
+}
+
+function resetChat() {
+  chatStarted = false;
+  document.getElementById('chatBody').innerHTML = '';
+  startChat();
+  chatStarted = true;
+}
+
+function addMsg(text, type = 'bot') {
+  const body = document.getElementById('chatBody');
+  const msg = document.createElement('div');
+  msg.className = `chat-msg ${type}`;
+  msg.innerHTML = text;
+  body.appendChild(msg);
+  body.scrollTop = body.scrollHeight;
+}
+
+function addTyping() {
+  const body = document.getElementById('chatBody');
+  const t = document.createElement('div');
+  t.className = 'typing';
+  t.id = 'typing';
+  t.innerHTML = '<span></span><span></span><span></span>';
+  body.appendChild(t);
+  body.scrollTop = body.scrollHeight;
+  return t;
+}
+
+function removeTyping() {
+  const t = document.getElementById('typing');
+  if (t) t.remove();
+}
+
+function addOptions(opts, callback) {
+  const body = document.getElementById('chatBody');
+  const div = document.createElement('div');
+  div.className = 'chat-options';
+  opts.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'chat-opt-btn';
+    btn.textContent = opt;
+    btn.onclick = () => {
+      div.querySelectorAll('button').forEach(b => b.disabled = true);
+      addMsg(opt, 'user');
+      setTimeout(() => callback(i, opt), 300);
+    };
+    div.appendChild(btn);
+  });
+  body.appendChild(div);
+  body.scrollTop = body.scrollHeight;
+}
+
+function addWappBtn(msg) {
+  const body = document.getElementById('chatBody');
+  const a = document.createElement('a');
+  a.className = 'chat-wapp-btn';
+  a.target = '_blank';
+  a.rel = 'noopener';
+  const encoded = encodeURIComponent(msg);
+  a.href = `https://wa.me/34971318078?text=${encoded}`;
+  a.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    ${chatTexts[currentLang].btn_wapp}`;
+  body.appendChild(a);
+  body.scrollTop = body.scrollHeight;
+}
+
+function botSay(text, delay = 600) {
+  return new Promise(resolve => {
+    const t = addTyping();
+    setTimeout(() => {
+      removeTyping();
+      addMsg(text);
+      resolve();
+    }, delay);
+  });
+}
+
+async function startChat() {
+  const t = chatTexts[currentLang];
+  await botSay(t.welcome, 800);
+  showMainMenu();
+}
+
+function showMainMenu() {
+  const t = chatTexts[currentLang];
+  addOptions(t.opts_main, (i) => {
+    if (i === 0) flowMatriculacion();
+    else if (i === 1) flowTransferencia();
+    else if (i === 2) flowCarnet();
+    else if (i === 3) flowNautica();
+    else flowOtro();
+  });
+}
+
+async function flowMatriculacion() {
+  const t = chatTexts[currentLang];
+  await botSay(t.q_mat, 700);
+  addOptions(t.opts_mat, async (i) => {
+    const info = i === 0 ? t.info_mat_new : t.info_mat_imp;
+    const msg  = i === 0 ? t.wapp_msg_mat_new : t.wapp_msg_mat_imp;
+    await botSay(info, 800);
+    await botSay(t.agenda_yes, 600);
+    addWappBtn(msg);
+  });
+}
+
+async function flowTransferencia() {
+  const t = chatTexts[currentLang];
+  await botSay(t.q_trans, 700);
+  addOptions(t.opts_trans, async (i) => {
+    const info = i === 0 ? t.info_trans_buy : t.info_trans_sell;
+    const msg  = i === 0 ? t.wapp_msg_trans_buy : t.wapp_msg_trans_sell;
+    await botSay(info, 800);
+    await botSay(t.agenda_yes, 600);
+    addWappBtn(msg);
+  });
+}
+
+async function flowCarnet() {
+  const t = chatTexts[currentLang];
+  await botSay(t.q_card, 700);
+  addOptions(t.opts_card, async (i) => {
+    const info = i === 0 ? t.info_card_ren : t.info_card_dup;
+    const msg  = i === 0 ? t.wapp_msg_card_ren : t.wapp_msg_card_dup;
+    await botSay(info, 800);
+    await botSay(t.agenda_yes, 600);
+    addWappBtn(msg);
+  });
+}
+
+async function flowNautica() {
+  const t = chatTexts[currentLang];
+  await botSay(t.info_naut, 800);
+  await botSay(t.agenda_yes, 600);
+  addWappBtn(t.wapp_msg_naut);
+}
+
+async function flowOtro() {
+  const t = chatTexts[currentLang];
+  await botSay(t.info_other, 800);
+  await botSay(t.agenda_yes, 600);
+  addWappBtn(t.wapp_msg_other);
+}
+</script>
+</body>
+</html>
